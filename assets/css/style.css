@@ -4,9 +4,10 @@
    Dasar tampilan dan warna website
    ============================== */
 :root {
-  --purple: #6541B5;
-  --purple-dark: #513293;
-  --soft-purple: #F0EAFB;
+ :root {
+  --purple: #397B78;
+  --purple-dark: #285E5B;
+  --soft-purple: #E8F3F1;
   --white: #FFFFFF;
   --navy: #252238;
   --gray: #F7F7FA;
