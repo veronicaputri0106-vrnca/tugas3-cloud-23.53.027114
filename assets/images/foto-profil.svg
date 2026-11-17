@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" role="img" aria-labelledby="title desc">
-<title id="title">Placeholder foto profil</title><desc id="desc">Ilustrasi sementara yang dapat diganti dengan foto pribadi.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9ddff"/><stop offset="1" stop-color="#c8b4f0"/></linearGradient></defs>
-<rect width="480" height="600" fill="url(#bg)"/><circle cx="240" cy="205" r="95" fill="#8c70c4"/><path d="M75 570c10-132 72-205 165-205s155 73 165 205" fill="#8c70c4"/><circle cx="240" cy="205" r="66" fill="#f7f2ff" opacity=".9"/><path d="M120 570c8-98 50-158 120-158s112 60 120 158" fill="#f7f2ff" opacity=".9"/><text x="240" y="535" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#5a438b">GANTI DENGAN FOTO</text>
-</svg>
