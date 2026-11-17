@@ -241,3 +241,31 @@ button { font: inherit; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+/* Daftar tautan tugas */
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.project-links .pending-link {
+    padding: 9px 13px;
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    background: var(--gray);
+    font-size: 12px;
+}
+
+/* Tampilan portofolio pada smartphone */
+@media (max-width: 620px) {
+    .project-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .project-links .pending-link {
+        width: 100%;
+    }
+}
