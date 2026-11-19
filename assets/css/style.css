@@ -269,3 +269,103 @@ button { font: inherit; }
         width: 100%;
     }
 }
+
+/* PEMISAH ANTAR TUGAS */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* KARTU SETIAP TUGAS */
+.project-card {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    gap: 24px;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #dce7e5;
+    border-radius: 16px;
+    position: relative;
+}
+
+/* NOMOR TUGAS */
+.project-index {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--purple);
+    border-right: 1px solid #dce7e5;
+    padding-right: 20px;
+}
+
+/* ISI TUGAS */
+.project-content {
+    min-width: 0;
+}
+
+/* PEMBATAS INFORMASI DAN LINK */
+.project-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 0;
+    margin-top: 20px;
+    border-top: 1px solid #e5e9e8;
+}
+
+/* DAFTAR LINK */
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 16px;
+    border-top: 1px dashed #dce7e5;
+}
+
+.project-links a {
+    display: inline-block;
+    padding: 10px 14px;
+    background: #e8f3f1;
+    color: var(--purple-dark);
+    border: 1px solid #d5e7e4;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.project-links a:hover {
+    background: var(--purple);
+    color: #ffffff;
+}
+
+/* TAMPILAN HP */
+@media (max-width: 600px) {
+    .project-card {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 20px;
+    }
+
+    .project-index {
+        border-right: none;
+        border-bottom: 1px solid #dce7e5;
+        padding: 0 0 12px;
+    }
+
+    .project-footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .project-links {
+        flex-direction: column;
+    }
+
+    .project-links a {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
